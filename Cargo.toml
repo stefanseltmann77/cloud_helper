@@ -6,10 +6,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-aws-config = "0.15.0"
-aws-sdk-ec2 = "0.15.0"
+aws-config = "*"
+aws-sdk-ec2 = "*"
+config = "*"
 public-ip = "*"
 tokio = { version = "1", features = ["full"] }
 
 [dev-dependencies]
-assert_cmd = "1"
+assert_cmd = "*"
